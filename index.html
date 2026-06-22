@@ -10,13 +10,74 @@
   <meta property="og:type" content="website" />
   <style>
     :root{
-      --dark:#0F1923;--navy:#1B2A4A;--navy2:#132033;--gold:#C5922E;--paper:#E8E0D4;--muted:#AFA89C;--line:rgba(197,146,46,.28);--soft:rgba(255,255,255,.055);--max:1160px;
+      --dark:#0F1923;
+      --navy:#1B2A4A;
+      --navy2:#132033;
+      --gold:#C5922E;
+      --paper:#E8E0D4;
+      --muted:#AFA89C;
+      --line:rgba(197,146,46,.28);
+      --soft:rgba(255,255,255,.055);
+      --max:1160px;
     }
-    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--dark);color:var(--paper);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6} a{color:inherit} .wrap{width:min(var(--max),calc(100% - 36px));margin:auto}.topbar{position:absolute;z-index:5;top:0;left:0;right:0;padding:22px 0}.brand{display:flex;align-items:center;gap:12px;color:var(--paper);text-decoration:none}.mark{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:rgba(15,25,35,.68)}.mark:before{content:"";width:18px;height:22px;border:1.8px solid var(--gold);clip-path:polygon(50% 0,100% 20%,90% 70%,50% 100%,10% 70%,0 20%)}.brand span{font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}.nav{display:flex;justify-content:space-between;align-items:center}.navlinks{display:flex;gap:18px;font-size:.9rem;color:var(--muted)}.navlinks a{text-decoration:none}.hero{position:relative;min-height:88vh;display:grid;place-items:center;overflow:hidden;background:linear-gradient(rgba(15,25,35,.38),rgba(15,25,35,.96)),radial-gradient(circle at 50% 45%,rgba(197,146,46,.10),transparent 16%),radial-gradient(circle at 50% 45%,transparent 0 17%,rgba(197,146,46,.08) 17.2% 17.5%,transparent 17.8% 100%),repeating-radial-gradient(circle at 50% 45%,rgba(197,146,46,.10) 0 1px,transparent 1px 28px),linear-gradient(90deg,rgba(197,146,46,.08) 1px,transparent 1px),linear-gradient(rgba(197,146,46,.07) 1px,transparent 1px),var(--navy2);background-size:auto,auto,auto,auto,88px 88px,88px 88px,auto}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 48%,transparent 0 10%,rgba(15,25,35,.22) 38%,rgba(15,25,35,.88) 80%)}.hero:after{content:"";position:absolute;left:50%;top:45%;width:300px;height:360px;transform:translate(-50%,-35%);border:1px solid rgba(197,146,46,.22);clip-path:polygon(50% 0,100% 20%,88% 72%,50% 100%,12% 72%,0 20%);opacity:.75}.hero-content{position:relative;z-index:2;text-align:center;padding:140px 0 82px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-size:.78rem;margin-bottom:20px}.hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:600;line-height:.98;letter-spacing:-.045em;font-size:clamp(3.3rem,8vw,7.9rem);max-width:1040px;margin:0 auto 24px}.hero .sub{font-size:clamp(1.1rem,2vw,1.55rem);max-width:840px;margin:0 auto;color:#ded7cc}.proofline{margin:28px auto 0;max-width:900px;color:var(--muted);font-size:1.02rem}.actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:34px}.btn{min-height:52px;padding:0 22px;border-radius:999px;border:1px solid var(--line);display:inline-flex;align-items:center;text-decoration:none;font-weight:800}.btn.primary{background:var(--gold);color:#111820;border-color:var(--gold)}.btn.secondary{background:rgba(255,255,255,.06);color:var(--paper)}section{padding:86px 0;border-top:1px solid rgba(197,146,46,.12)}.section-title{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,4vw,4.3rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 20px}.section-kicker{color:var(--gold);text-transform:uppercase;letter-spacing:.16em;font-weight:800;font-size:.78rem;margin-bottom:16px}.lead{font-size:1.22rem;color:#d8d1c8;max-width:850px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.grid.two{grid-template-columns:repeat(2,1fr)}.card{background:var(--soft);border:1px solid var(--line);border-radius:22px;padding:24px}.card h3{margin:0 0 10px;color:var(--paper);font-size:1.18rem}.card p{margin:0;color:var(--muted)}.stat{font-family:Georgia,"Times New Roman",serif;color:var(--gold);font-size:2.2rem;line-height:1;margin-bottom:8px}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:34px}.flow .step{position:relative;text-align:center;background:rgba(255,255,255,.055);border:1px solid var(--line);border-radius:20px;padding:22px 14px;min-height:116px}.flow .step strong{display:block;color:var(--paper);margin-bottom:6px}.flow .step span{color:var(--muted);font-size:.92rem}.callout{margin-top:30px;padding:28px;border-left:4px solid var(--gold);background:rgba(197,146,46,.08);border-radius:0 20px 20px 0}.split{display:grid;grid-template-columns:.95fr 1.05fr;gap:42px;align-items:start}.faq{display:grid;gap:14px;margin-top:28px}.faq details{background:var(--soft);border:1px solid var(--line);border-radius:18px;padding:18px 20px}.faq summary{cursor:pointer;font-weight:800;color:var(--paper)}.faq p{color:var(--muted);margin-bottom:0}.footer{padding:38px 0;color:var(--muted);border-top:1px solid var(--line)}.footer-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer a{color:var(--gold)}@media(max-width:850px){.navlinks{display:none}.hero{min-height:92vh}.grid,.grid.two,.flow,.split{grid-template-columns:1fr}.hero h1{font-size:clamp(3rem,14vw,5.2rem)}section{padding:64px 0}.flow .step{text-align:left}.actions{justify-content:flex-start}.hero-content{text-align:left}.hero .sub,.proofline{margin-left:0}.hero:after{opacity:.35}}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--dark);color:var(--paper);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit}
+    .wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+    .topbar{position:absolute;z-index:10;top:0;left:0;right:0;padding:22px 0}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:24px}
+    .brand{display:flex;align-items:center;gap:14px;color:var(--paper);text-decoration:none;text-shadow:0 2px 16px rgba(0,0,0,.5)}
+    .mark{width:52px;height:52px;border:1.5px solid rgba(197,146,46,.85);border-radius:50%;display:grid;place-items:center;background:rgba(197,146,46,.10);box-shadow:0 0 0 6px rgba(197,146,46,.045),0 10px 36px rgba(0,0,0,.38)}
+    .mark:before{content:"";width:23px;height:28px;border:2.2px solid var(--gold);clip-path:polygon(50% 0,100% 20%,90% 70%,50% 100%,10% 70%,0 20%);filter:drop-shadow(0 0 10px rgba(197,146,46,.4))}
+    .brand span{font-weight:900;letter-spacing:.13em;text-transform:uppercase;font-size:.86rem;color:#F3EBDD}
+    .navlinks{display:flex;gap:20px;font-size:.94rem;color:#d8d1c8}
+    .navlinks a{text-decoration:none;opacity:.88}.navlinks a:hover{opacity:1;color:var(--gold)}
+    .hero{position:relative;min-height:100vh;display:grid;place-items:center;overflow:hidden;background-image:linear-gradient(180deg,rgba(8,17,26,.18) 0%,rgba(8,17,26,.30) 40%,rgba(8,17,26,.88) 100%),url('assets/shield-pattern.svg');background-size:cover;background-position:center;background-repeat:no-repeat}
+    .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 42%,rgba(197,146,46,.10),transparent 20%),linear-gradient(90deg,rgba(8,17,26,.78),transparent 22%,transparent 78%,rgba(8,17,26,.78));pointer-events:none}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,17,26,.02),rgba(8,17,26,.38));pointer-events:none}
+    .hero-content{position:relative;z-index:2;text-align:center;padding:150px 0 90px}
+    .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-weight:900;font-size:.8rem;margin-bottom:22px;text-shadow:0 2px 20px rgba(0,0,0,.55)}
+    .hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:650;line-height:.98;letter-spacing:-.055em;font-size:clamp(3.3rem,8vw,7.7rem);max-width:1040px;margin:0 auto 26px;text-shadow:0 8px 36px rgba(0,0,0,.56)}
+    .hero .sub{font-size:clamp(1.1rem,2vw,1.55rem);font-weight:700;max-width:840px;margin:0 auto;color:#F0E8DB;text-shadow:0 3px 20px rgba(0,0,0,.55)}
+    .proofline{margin:30px auto 0;max-width:900px;color:#d2cabf;font-size:1.02rem;text-shadow:0 2px 14px rgba(0,0,0,.55)}
+    .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:36px}
+    .btn{min-height:52px;padding:0 24px;border-radius:999px;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:900;white-space:nowrap;letter-spacing:-.01em;box-shadow:0 12px 30px rgba(0,0,0,.22)}
+    .btn.primary{background:var(--gold);color:#111820;border-color:var(--gold)}
+    .btn.secondary{background:rgba(15,25,35,.64);color:var(--paper);backdrop-filter:blur(8px)}
+    .btn:hover{transform:translateY(-1px)}
+    section{padding:86px 0;border-top:1px solid rgba(197,146,46,.12)}
+    .section-title{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,4vw,4.3rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 20px}
+    .section-kicker{color:var(--gold);text-transform:uppercase;letter-spacing:.16em;font-weight:900;font-size:.78rem;margin-bottom:16px}
+    .lead{font-size:1.22rem;color:#d8d1c8;max-width:850px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+    .grid.two{grid-template-columns:repeat(2,1fr)}
+    .card{background:var(--soft);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 18px 50px rgba(0,0,0,.12)}
+    .card h3{margin:0 0 10px;color:var(--paper);font-size:1.18rem}
+    .card p{margin:0;color:var(--muted)}
+    .stat{font-family:Georgia,"Times New Roman",serif;color:var(--gold);font-size:2.2rem;line-height:1;margin-bottom:8px}
+    .flow{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:34px}
+    .flow .step{position:relative;text-align:center;background:rgba(255,255,255,.055);border:1px solid var(--line);border-radius:20px;padding:22px 14px;min-height:116px}
+    .flow .step strong{display:block;color:var(--paper);margin-bottom:6px}
+    .flow .step span{color:var(--muted);font-size:.92rem}
+    .callout{margin-top:30px;padding:28px;border-left:4px solid var(--gold);background:rgba(197,146,46,.08);border-radius:0 20px 20px 0}
+    .split{display:grid;grid-template-columns:.95fr 1.05fr;gap:42px;align-items:start}
+    .faq{display:grid;gap:14px;margin-top:28px}
+    .faq details{background:var(--soft);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+    .faq summary{cursor:pointer;font-weight:900;color:var(--paper)}
+    .faq p{color:var(--muted);margin-bottom:0}
+    .footer{padding:38px 0;color:var(--muted);border-top:1px solid var(--line)}
+    .footer-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer a{color:var(--gold)}
+    @media(max-width:850px){.navlinks{display:none}.hero{min-height:94vh;background-position:center top}.grid,.grid.two,.flow,.split{grid-template-columns:1fr}.hero h1{font-size:clamp(3rem,14vw,5.2rem)}section{padding:64px 0}.flow .step{text-align:left}.actions{justify-content:flex-start}.hero-content{text-align:left}.hero .sub,.proofline{margin-left:0}.brand span{font-size:.76rem}.mark{width:44px;height:44px}.hero:before{background:linear-gradient(90deg,rgba(8,17,26,.86),rgba(8,17,26,.38)),radial-gradient(circle at 50% 30%,rgba(197,146,46,.10),transparent 24%)}}
   </style>
 </head>
 <body>
-  <header class="topbar"><div class="wrap nav"><a class="brand" href="#top"><i class="mark"></i><span>The Shield Initiative</span></a><nav class="navlinks"><a href="#model">Model</a><a href="#memphis">Memphis</a><a href="#faq">FAQ</a><a href="mailto:martin@martinsterling.org">Contact</a></nav></div></header>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top"><i class="mark"></i><span>The Shield Initiative</span></a>
+      <nav class="navlinks"><a href="#model">Model</a><a href="#memphis">Memphis</a><a href="#faq">FAQ</a><a href="mailto:martin@martinsterling.org">Contact</a></nav>
+    </div>
+  </header>
   <main id="top">
     <section class="hero">
       <div class="wrap hero-content">
@@ -24,7 +85,7 @@
         <h1>No family should lose a child and their financial future on the same day.</h1>
         <p class="sub">The Shield Initiative is a community trust that gives families in high-violence neighborhoods life insurance coverage they cannot currently access, fully funded, family-owned, and built on dignity.</p>
         <p class="proofline">Families pay nothing. Parents own the policies. Parents are the sole beneficiaries. The Shield Fund exists only to organize coverage and pay premiums through a national donor pool.</p>
-        <div class="actions"><a class="btn primary" href="#model">Learn How It Works</a><a class="btn secondary" href="#support">Support the Mission</a><a class="btn secondary" href="#memphis">Memphis Pilot</a></div>
+        <div class="actions"><a class="btn primary" href="#model">Learn How It Works</a><a class="btn secondary" href="#support">Support the Mission</a><a class="btn secondary" href="#memphis">Memphis&nbsp;Pilot</a></div>
       </div>
     </section>
     <section><div class="wrap grid"><div class="card"><h3>Family-owned coverage</h3><p>Parents own the policies and are the sole beneficiaries.</p></div><div class="card"><h3>Donor-funded premiums</h3><p>Families pay $0. Premiums are funded through a national contribution pool.</p></div><div class="card"><h3>Reserve protected</h3><p>No cohort enrolls until 24 months of premiums are banked.</p></div></div></section>
