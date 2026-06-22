@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="navyGlow" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#1B2A4A" stop-opacity="0.82"/>
+      <stop offset="55%" stop-color="#0F1923" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#08111A" stop-opacity="1"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="#C5922E" stroke-opacity="0.17" stroke-width="1" stroke-dasharray="2 7"/>
+      <circle cx="0" cy="0" r="2.4" fill="#C5922E" fill-opacity="0.38"/>
+    </pattern>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1672" height="941" fill="url(#navyGlow)"/>
+  <rect width="1672" height="941" fill="url(#grid)" opacity="0.6"/>
+  <g transform="translate(836 470)" fill="none" stroke="#C5922E" stroke-linecap="round">
+    <circle r="130" stroke-opacity="0.23" stroke-width="1"/>
+    <circle r="220" stroke-opacity="0.20" stroke-width="1"/>
+    <circle r="310" stroke-opacity="0.16" stroke-width="1"/>
+    <circle r="400" stroke-opacity="0.13" stroke-width="1"/>
+    <circle r="490" stroke-opacity="0.10" stroke-width="1"/>
+    <circle r="580" stroke-opacity="0.08" stroke-width="1"/>
+    <circle r="670" stroke-opacity="0.06" stroke-width="1"/>
+    <g stroke-opacity="0.09" stroke-width="1">
+      <path d="M0-705V-260"/>
+      <path d="M74-700 28-258"/>
+      <path d="M147-690 56-253"/>
+      <path d="M219-670 83-246"/>
+      <path d="M289-643 109-235"/>
+      <path d="M356-608 134-221"/>
+      <path d="M419-566 157-203"/>
+      <path d="M477-517 179-183"/>
+      <path d="M530-462 198-160"/>
+      <path d="M577-401 215-135"/>
+      <path d="M617-335 229-108"/>
+      <path d="M650-265 240-80"/>
+      <path d="M675-192 249-51"/>
+      <path d="M692-117 255-22"/>
+      <path d="M700-39 258 7"/>
+      <path d="M700 39 258 37"/>
+      <path d="M692 117 255 67"/>
+      <path d="M675 192 249 96"/>
+      <path d="M650 265 240 124"/>
+      <path d="M617 335 229 151"/>
+      <path d="M577 401 215 176"/>
+      <path d="M530 462 198 199"/>
+      <path d="M477 517 179 219"/>
+      <path d="M419 566 157 237"/>
+      <path d="M356 608 134 252"/>
+      <path d="M289 643 109 264"/>
+      <path d="M219 670 83 274"/>
+      <path d="M147 690 56 281"/>
+      <path d="M74 700 28 286"/>
+      <path d="M0 705V288"/>
+      <path d="M-74 700-28 286"/>
+      <path d="M-147 690-56 281"/>
+      <path d="M-219 670-83 274"/>
+      <path d="M-289 643-109 264"/>
+      <path d="M-356 608-134 252"/>
+      <path d="M-419 566-157 237"/>
+      <path d="M-477 517-179 219"/>
+      <path d="M-530 462-198 199"/>
+      <path d="M-577 401-215 176"/>
+      <path d="M-617 335-229 151"/>
+      <path d="M-650 265-240 124"/>
+      <path d="M-675 192-249 96"/>
+      <path d="M-692 117-255 67"/>
+      <path d="M-700 39-258 37"/>
+      <path d="M-700-39-258 7"/>
+      <path d="M-692-117-255-22"/>
+      <path d="M-675-192-249-51"/>
+      <path d="M-650-265-240-80"/>
+      <path d="M-617-335-229-108"/>
+      <path d="M-577-401-215-135"/>
+      <path d="M-530-462-198-160"/>
+      <path d="M-477-517-179-183"/>
+      <path d="M-419-566-157-203"/>
+      <path d="M-356-608-134-221"/>
+      <path d="M-289-643-109-235"/>
+      <path d="M-219-670-83-246"/>
+      <path d="M-147-690-56-253"/>
+      <path d="M-74-700-28-258"/>
+    </g>
+    <path d="M0-250 205-160c0 158-48 292-205 410-157-118-205-252-205-410L0-250Z" stroke-opacity="0.34" stroke-width="2"/>
+    <path d="M0-202 150-137c0 121-36 222-150 313-114-91-150-192-150-313L0-202Z" stroke-opacity="0.22" stroke-width="1.5"/>
+  </g>
+  <g fill="none" stroke="#C5922E" stroke-opacity="0.16" stroke-width="1">
+    <path d="M72 0v106M0 72h286M286 0v106M1390 0v106M1459 72h213M1600 0v106"/>
+    <path d="M70 941V835M0 868h286M286 941V835M1390 941V835M1459 868h213M1600 941V835"/>
+    <path d="M105 34h105v105H105zM1462 34h105v105h-105zM105 801h105v105H105zM1462 801h105v105h-105z"/>
+    <path d="M105 34l105 105M210 34 105 139M1462 34l105 105M1567 34l-105 105M105 801l105 105M210 801 105 906M1462 801l105 105M1567 801l-105 105"/>
+  </g>
+  <rect width="1672" height="941" filter="url(#grain)" opacity="0.28"/>
+</svg>
